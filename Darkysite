@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darky - Social Media Manager</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .header {
+      text-align: center;
+      padding: 20px;
+    }
+    .nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+    .nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .content {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>Darky - Social Media Manager</h1>
+    </header>
+    <nav class="nav">
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <main class="content">
+      <h2>Welcome to Darky's Social Media Management Services</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras porttitor, nisl eget volutpat vestibulum, nisi nisi volutpat nisi, ut fringilla nisi nisi vitae nisi. Nullam eget nisi vel nisi vestibulum vestibulum.</p>
+    </main>
+    <footer>
+      <p>© 2023 Darky - Social Media Manager</p>
+    </footer>
+  </div>
+</body>
+</html>
